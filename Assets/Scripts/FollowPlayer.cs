@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FollowPlayer : MonoBehaviour
 {
@@ -45,6 +46,10 @@ public class FollowPlayer : MonoBehaviour
             {
                 ShowOverheadView();
             }
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
         }
 
     }

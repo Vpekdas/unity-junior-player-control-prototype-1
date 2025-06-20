@@ -1,10 +1,19 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerX : MonoBehaviour
 {
     public float Speed;
     public float RotationSpeed;
     private float _verticalInput;
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
 
     void FixedUpdate()
     {
