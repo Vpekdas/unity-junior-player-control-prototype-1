@@ -93,6 +93,25 @@ Alternatively, you can play the game directly in your browser via Unity Play by 
 
 To run the program, simply double-click the executable file for your operating system.
 
+### MacOS
+
+Unzip and open the .app file.
+
+### Windows
+
+Unzip and double-click the .exe file.
+
+### Linux
+
+```bash
+chmod +x Vehicle_game.x86_64
+./Vehicle_game.x86_64
+```
+
+### Web
+
+Play on [browser](https://vpekdas.github.io/unity-junior-player-control-prototype-1/)
+
 ## Credits
 
 This project is based on the Unity **Junior Programmer Pathway** by Unity Learn.
